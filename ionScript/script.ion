@@ -1,0 +1,17 @@
+set number1 0
+set string1 "Hi"
+sset blankString
+dset blankNumber
+
+out "Testing print command: Hallo Welt"
+out string1
+out "Enter a string which will fill a blank stringvar and be echoed: "
+in blankString
+out "Echoing "
+out blankString
+out "Enter a number:"
+in blankNumber
+out "Echo of number: "
+out blankNumber
+out "printing predefined varnumber: "
+out number1
